@@ -1,0 +1,14 @@
+{
+  "name": "@mathdown/snapshot",
+  "version": "0.0.1",
+  "license": "Unlicense",
+  "description": "poor man’s snapshot testing",
+  "author": "Ivan Trubach <mr.trubach@icloud.com>",
+  "main": "snapshot.mjs",
+  "scripts": {
+    "test": "node test/index.mjs"
+  },
+  "devDependencies": {
+    "m.test": "0.0.58"
+  }
+}
