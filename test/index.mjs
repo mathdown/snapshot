@@ -3,10 +3,10 @@ import snapshot from '../snapshot.mjs'
 import mtest from 'm.test'
 import { strict } from 'assert'
 
-import path from 'path';
-import url from 'url';
+import path from 'path'
+import url from 'url'
 
-const dirname = path.dirname(url.fileURLToPath(import.meta.url));
+const dirname = path.dirname(url.fileURLToPath(import.meta.url))
 
 mtest.test('checks snapshot', () => {
 	strict.doesNotThrow(() => {
